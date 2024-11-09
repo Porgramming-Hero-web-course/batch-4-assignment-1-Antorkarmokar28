@@ -6,6 +6,5 @@
         const perticulerWord = sentenceLowerCase.split(' ');
         return perticulerWord.filter((word) => word === wordLowerCase).length;
     };
-   
     //
 }
